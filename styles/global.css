@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fullpage{
+    height: 100vh;
+    width: 100vw;
+}
+
+:root{
+    --yellow: #F9C06A;
+    --brown: #603809;
+    --gray: #707070;
+    --dark-brown: #1E1E1E;
+
+    --font-family-clicker: "Clicker Script", sans-serif;
+    --font-family-playfair: 'Playfair Display', sans-serif;
+
+    --ul-text: 500 0.875rem/1.1rem var(--font-family-playfair);
+    --logo-text: 400 13.75rem/2.8rem var(--font-family-clicker);
+    --heading: 700 3.375rem/4.5rem var(--font-family-playfair);
+    --body-text: 400 1.25rem/2.125rem var(--font-family-playfair);
+    --btn-text: 500 1rem/1.3rem var(--font-family-playfair);
+}
+
+a{
+    color: white;
+    font: var(--ul-text);
+}
+
+button{
+    width: 134px;
+    height: 48px;
+    color: var(--dark-brown);
+    background-color: var(--yellow);
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    filter: drop-shadow(0px 6px 12px hwb(36 42% 2% / 22%));
+    font: var(--btn-text);
+    transition: ease-in 0.2s;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
