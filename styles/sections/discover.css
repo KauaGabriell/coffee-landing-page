@@ -4,6 +4,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    button{
+        cursor: pointer;
+    }
 }
 
 .discover-content{
@@ -31,6 +35,3 @@
     
 }
 
-#coffee-liquid{
-    transform: translateY(-40%);
-}
