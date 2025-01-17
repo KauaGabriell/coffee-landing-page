@@ -14,6 +14,8 @@
     --brown: #603809;
     --gray: #707070;
     --dark-brown: #1E1E1E;
+    --yellow-transparent: rgba(249, 192, 106, 42%);
+    --bg-transparent: #FFF9F1;
 
     --font-family-clicker: "Clicker Script", sans-serif;
     --font-family-playfair: 'Playfair Display', sans-serif;
@@ -25,6 +27,7 @@
     --btn-text: 500 1rem/1.3rem var(--font-family-playfair);
     --coffee-title: 700 1.375rem/1.8rem var(--font-family-playfair);
     --coffee-info-text: 400 1rem/1.1rem var(--font-family-playfair);
+    --card-heading: 700 1.75rem/2.3rem var(--font-family-playfair);
 }
 
 a{
@@ -76,4 +79,14 @@ h2{
     display: flex;
     justify-content: end;
     align-items: end;
+}
+
+h3{
+    color: var(--brown);
+    font: var(--card-heading);
+}
+
+h4{
+    font: bold 30px/40px var(--font-family-playfair);
+    color: var(--brown);
 }
