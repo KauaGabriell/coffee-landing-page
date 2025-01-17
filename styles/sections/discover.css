@@ -1,0 +1,36 @@
+.discover-section{
+    width: 100vw;
+    gap: 5.9rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.discover-content{
+    min-width: 1180px;
+    height: 100%;
+    display: flex;
+    gap: 20rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.discover-text{
+    max-width: 585px;
+    min-height: 348px;
+    display: flex;
+    gap: 1.8rem;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-block: 68px;
+
+    p{
+        color: var(--gray);
+        font: var(--body-text);
+    }
+    
+}
+
+#coffee-liquid{
+    transform: translateY(-40%);
+}
